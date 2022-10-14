@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--original image to be used to detect -->
+
+        <ImageView
+            android:id="@+id/originalImageIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c03"
+            android:adjustViewBounds="true" />
+
+        <Button
+            android:id="@+id/detectFacesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detect_Face"/>
+
+
+
+
+
+        <!--Button start detecting faces-->
+
+
+
+
+        <!--ImageView: Detected/Croped Image-->
+
+        <ImageView
+            android:id="@+id/croppedImageIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
